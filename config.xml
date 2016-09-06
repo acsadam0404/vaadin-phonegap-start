@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "com.vaadin.phonegap.getting.started"
+	id		= "hu.ottone.docfinit"
 	version 	= "1.0.0">
 
-	<name>PhoneGap packaged Vaadin app</name>
+	<name>DocFinit</name>
 
 	<description>
-		A template for getting started with PhoneGap wrapped Vaadin app and build.phonegap.com
+		DocFinit start
 	</description>
 
 	<author href="http://mstahv.github.com"
@@ -22,8 +22,5 @@
 	
 	<!-- These rules lets demo.vaadin.com take over the web view created by cordova/phonegap -->
 	<preference name="stay-in-webview" value="true" />
-	<access origin="http://demo.vaadin.com" />
-	<!-- Vornitologist uses openstreetmap data as background map so we'll whitelist that as well -->
-	<access origin="http://openstreetmap.org" subdomains="true" />
 
 </widget>
